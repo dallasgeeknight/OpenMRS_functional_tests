@@ -3,13 +3,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jbehave.tutorials</groupId>
-    <artifactId>etsy</artifactId>
+    <groupId>openmrs</groupId>
+    <artifactId>openmrs-functional-tests</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>etsy-stories-groovy-pico</artifactId>
-  <name>Etsy.com Stories with Groovy and Pico</name>
-  <description>JBehave stories verifying functionality of Etsy.com using Groovy and Pico</description>
+  <artifactId>openmrs-stories</artifactId>
+  <name>OpenMRS functional tests - stories</name>
+  <description>JBehave stories verifying functionality of OpenMRS with steps and page objects in Groovy</description>
 
   <properties>
     <gmaven.version>1.3</gmaven.version>
