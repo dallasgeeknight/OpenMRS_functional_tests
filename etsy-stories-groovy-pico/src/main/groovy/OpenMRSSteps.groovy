@@ -17,11 +17,6 @@ public class OpenMRSSteps {
     login.fillUser("admin")
   }
 
-  @When("I enter xxxxxx for password")
-  public void whenIEnterXxxxxxForPassword(){
-    login.fillPassword("xxxxxx")
-  }
-
   @When("click submit")
   public void whenClickSubmit(){
     login.clickSubmit()
@@ -38,10 +33,9 @@ public class OpenMRSSteps {
     login.isNotLoggedIn()
   }
 
-  @When("I enter OpenMRS1 for password")
-  public void whenIEnterOpenMRS1ForPassword(){
-    login.fillPassword("OpenMRS1")
+  @When("I enter \$pw for password")
+  public void whenIEnterSomethingForPassword(String pw){
+    login.fillPassword(pw)
    }
-
 
 }
